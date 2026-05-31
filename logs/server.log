@@ -1,0 +1,359 @@
+[2026-05-28 13:40:07] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-28 13:40:07] [INFO] [SERVER] Server started on port 8080
+[2026-05-28 13:55:27] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-28 13:55:27] [INFO] [SERVER] Handling client: 127.0.0.1:61114
+[2026-05-28 13:55:39] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-28 13:55:39] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-28 13:55:39] [INFO] [SERVER] Login successful for user: alice
+[2026-05-28 13:55:39] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 13:55:48] [INFO] [SERVER] Received message from CLIENT - Type: DATA
+[2026-05-28 13:55:48] [INFO] [SERVER] Processing data request from CLIENT
+[2026-05-28 13:55:48] [INFO] [SERVER] Data request processed successfully
+[2026-05-28 13:55:48] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 13:56:45] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-28 13:56:45] [INFO] [SERVER] Handling client: 127.0.0.1:61128
+[2026-05-28 13:57:20] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-28 13:57:20] [INFO] [SERVER] Login attempt - Username: bob
+[2026-05-28 13:57:20] [INFO] [SERVER] Login successful for user: bob
+[2026-05-28 13:57:20] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 14:13:06] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-28 14:13:06] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-28 14:13:06] [INFO] [SERVER] Login successful for user: alice
+[2026-05-28 14:13:06] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 14:13:58] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-28 14:13:58] [INFO] [SERVER] Login attempt - Username: bob
+[2026-05-28 14:13:58] [INFO] [SERVER] Login successful for user: bob
+[2026-05-28 14:13:58] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 14:21:47] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-28 14:21:47] [INFO] [SERVER] Handling client: 127.0.0.1:61279
+[2026-05-28 14:22:21] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-28 14:22:21] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-28 14:22:21] [INFO] [SERVER] Login successful for user: alice
+[2026-05-28 14:22:21] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 14:24:48] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-28 14:24:48] [ERROR] [SERVER] Failed to start server: Address already in use: NET_Bind
+[2026-05-28 14:24:48] [INFO] [SERVER] Server stopped
+[2026-05-28 14:25:00] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-28 14:25:00] [ERROR] [SERVER] Failed to start server: Address already in use: NET_Bind
+[2026-05-28 14:25:00] [INFO] [SERVER] Server stopped
+[2026-05-28 14:25:06] [INFO] [SERVER] Server stopped
+[2026-05-28 14:25:17] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-28 14:25:17] [INFO] [SERVER] Server started on port 8080
+[2026-05-28 16:23:33] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-28 16:23:33] [ERROR] [SERVER] Failed to start server: Address already in use: NET_Bind
+[2026-05-28 16:23:33] [INFO] [SERVER] Server stopped
+[2026-05-28 16:58:47] [WARNING] [SERVER] Client disconnected: 127.0.0.1:61114
+[2026-05-28 16:58:47] [WARNING] [SERVER] Client disconnected: 127.0.0.1:61279
+[2026-05-28 16:58:47] [INFO] [SERVER] Client connection closed: 127.0.0.1:61279
+[2026-05-28 16:58:47] [INFO] [SERVER] Client connection closed: 127.0.0.1:61114
+[2026-05-28 17:01:06] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-28 17:01:06] [INFO] [SERVER] Server started on port 8080
+[2026-05-28 17:02:22] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-28 17:02:22] [INFO] [SERVER] Handling client: 127.0.0.1:62141
+[2026-05-28 17:02:39] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-28 17:02:39] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-28 17:02:39] [INFO] [SERVER] Login successful for user: alice
+[2026-05-28 17:02:39] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 17:07:00] [INFO] [SERVER] Received message from CLIENT - Type: DATA
+[2026-05-28 17:07:00] [INFO] [SERVER] Processing data request from CLIENT
+[2026-05-28 17:07:00] [INFO] [SERVER] Health record stored for patient: John Doe
+[2026-05-28 17:07:00] [INFO] [SERVER] Patient ID: P1779968220168
+[2026-05-28 17:07:00] [INFO] [SERVER] Medical Condition: BP
+[2026-05-28 17:07:00] [INFO] [SERVER] Medications: Omc
+[2026-05-28 17:07:00] [INFO] [SERVER] Health data submission processed successfully
+[2026-05-28 17:07:00] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 17:09:25] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-28 17:10:38] [INFO] [SERVER] Handling client: 127.0.0.1:62241
+[2026-05-28 17:10:38] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-28 17:10:39] [INFO] [SERVER] Decrypted message content
+[2026-05-28 17:10:39] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-28 17:10:39] [INFO] [SERVER] Login successful for user: alice
+[2026-05-28 17:10:39] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 17:11:03] [INFO] [SERVER] Received message from CLIENT - Type: DATA
+[2026-05-28 17:11:03] [INFO] [SERVER] Decrypted message content
+[2026-05-28 17:11:03] [INFO] [SERVER] Processing data request from CLIENT
+[2026-05-28 17:11:03] [INFO] [SERVER] Health record stored for patient: dsa
+[2026-05-28 17:11:03] [INFO] [SERVER] Patient ID: P1779968463708
+[2026-05-28 17:11:03] [INFO] [SERVER] Medical Condition: dfgbdd
+[2026-05-28 17:11:03] [INFO] [SERVER] Medications: 
+[2026-05-28 17:11:03] [INFO] [SERVER] Health data submission processed successfully
+[2026-05-28 17:11:03] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 17:12:08] [INFO] [SERVER] Server stopped
+[2026-05-28 17:15:03] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-28 17:15:03] [INFO] [SERVER] Server started on port 8080
+[2026-05-28 17:15:14] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-28 17:15:14] [INFO] [SERVER] Handling client: 127.0.0.1:62270
+[2026-05-28 17:15:38] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-28 17:15:38] [INFO] [SERVER] Decrypted message content
+[2026-05-28 17:15:38] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-28 17:15:38] [INFO] [SERVER] Login successful for user: alice
+[2026-05-28 17:15:38] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 17:16:13] [INFO] [SERVER] Received message from CLIENT - Type: DATA
+[2026-05-28 17:16:13] [INFO] [SERVER] Decrypted message content
+[2026-05-28 17:16:13] [INFO] [SERVER] Processing data request from CLIENT
+[2026-05-28 17:16:13] [INFO] [SERVER] Health record stored for patient: Alice
+[2026-05-28 17:16:13] [INFO] [SERVER] Patient ID: P1779968773050
+[2026-05-28 17:16:13] [INFO] [SERVER] Medical Condition: N
+[2026-05-28 17:16:13] [INFO] [SERVER] Medications: N
+[2026-05-28 17:16:13] [INFO] [SERVER] Health data submission processed successfully
+[2026-05-28 17:16:13] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 17:16:26] [WARNING] [SERVER] Client disconnected: 127.0.0.1:62270
+[2026-05-28 17:16:26] [INFO] [SERVER] Client connection closed: 127.0.0.1:62270
+[2026-05-28 17:22:41] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-28 17:22:41] [INFO] [SERVER] Server started on port 8080
+[2026-05-28 17:22:49] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-28 17:22:49] [INFO] [SERVER] Handling client: 127.0.0.1:62342
+[2026-05-28 17:23:07] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-28 17:23:07] [INFO] [SERVER] Decrypted message content
+[2026-05-28 17:23:07] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-28 17:23:07] [INFO] [SERVER] Login successful for user: alice
+[2026-05-28 17:23:07] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 17:23:30] [INFO] [SERVER] Received message from CLIENT - Type: DATA
+[2026-05-28 17:23:30] [INFO] [SERVER] Decrypted message content
+[2026-05-28 17:23:30] [INFO] [SERVER] Processing data request from CLIENT
+[2026-05-28 17:23:30] [INFO] [SERVER] Health record stored for patient: Alice
+[2026-05-28 17:23:30] [INFO] [SERVER] Patient ID: P1779969210874
+[2026-05-28 17:23:30] [INFO] [SERVER] Medical Condition: BP
+[2026-05-28 17:23:30] [INFO] [SERVER] Medications: Dia
+[2026-05-28 17:23:30] [INFO] [SERVER] Health data submission processed successfully
+[2026-05-28 17:23:30] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 17:23:54] [WARNING] [SERVER] Client disconnected: 127.0.0.1:62342
+[2026-05-28 17:23:54] [INFO] [SERVER] Client connection closed: 127.0.0.1:62342
+[2026-05-28 17:24:18] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-28 17:24:18] [INFO] [SERVER] Server started on port 8080
+[2026-05-28 17:24:25] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-28 17:24:25] [INFO] [SERVER] Handling client: 127.0.0.1:62347
+[2026-05-28 17:24:34] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-28 17:24:34] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-28 17:24:35] [INFO] [SERVER] Login successful for user: alice
+[2026-05-28 17:24:35] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 17:25:05] [INFO] [SERVER] Received message from CLIENT - Type: DATA
+[2026-05-28 17:25:05] [INFO] [SERVER] Processing data request from CLIENT
+[2026-05-28 17:25:05] [INFO] [SERVER] Health record stored for patient: AliceA
+[2026-05-28 17:25:05] [INFO] [SERVER] Patient ID: P1779969305890
+[2026-05-28 17:25:05] [INFO] [SERVER] Medical Condition: A
+[2026-05-28 17:25:05] [INFO] [SERVER] Medications: B
+[2026-05-28 17:25:05] [INFO] [SERVER] Health data submission processed successfully
+[2026-05-28 17:25:05] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 17:25:39] [WARNING] [SERVER] Client disconnected: 127.0.0.1:62347
+[2026-05-28 17:25:39] [INFO] [SERVER] Client connection closed: 127.0.0.1:62347
+[2026-05-28 18:06:05] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-28 18:06:05] [INFO] [SERVER] Server started on port 8080
+[2026-05-28 18:06:23] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-28 18:06:23] [INFO] [SERVER] Handling client: 127.0.0.1:62621
+[2026-05-28 18:06:44] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-28 18:06:44] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-28 18:06:44] [INFO] [SERVER] Login successful for user: alice
+[2026-05-28 18:06:44] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 18:07:49] [INFO] [SERVER] Received message from CLIENT - Type: DATA
+[2026-05-28 18:07:49] [INFO] [SERVER] Processing data request from CLIENT
+[2026-05-28 18:07:49] [INFO] [SERVER] Health record stored for patient: Alice
+[2026-05-28 18:07:49] [INFO] [SERVER] Patient ID: P1779971869345
+[2026-05-28 18:07:49] [INFO] [SERVER] Medical Condition: BP
+[2026-05-28 18:07:49] [INFO] [SERVER] Medications: BP
+[2026-05-28 18:07:49] [INFO] [SERVER] Health data submission processed successfully
+[2026-05-28 18:07:49] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 18:08:12] [WARNING] [SERVER] Client disconnected: 127.0.0.1:62621
+[2026-05-28 18:08:12] [INFO] [SERVER] Client connection closed: 127.0.0.1:62621
+[2026-05-28 18:08:30] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-28 18:08:31] [INFO] [SERVER] Server started on port 8080
+[2026-05-28 18:08:39] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-28 18:08:39] [INFO] [SERVER] Handling client: 127.0.0.1:62628
+[2026-05-28 18:09:05] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-28 18:09:05] [INFO] [SERVER] Decrypted message content
+[2026-05-28 18:09:05] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-28 18:09:05] [INFO] [SERVER] Login successful for user: alice
+[2026-05-28 18:09:05] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 18:12:05] [WARNING] [SERVER] Client disconnected: 127.0.0.1:62628
+[2026-05-28 18:12:05] [INFO] [SERVER] Client connection closed: 127.0.0.1:62628
+[2026-05-28 20:53:48] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-28 20:53:48] [INFO] [SERVER] Server started on port 8080
+[2026-05-28 20:55:46] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-28 20:55:47] [INFO] [SERVER] Handling client: 127.0.0.1:62845
+[2026-05-28 20:55:50] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-28 20:55:50] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-28 20:55:52] [INFO] [SERVER] Login successful for user: alice
+[2026-05-28 20:55:52] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 21:03:19] [WARNING] [SERVER] Client disconnected: 127.0.0.1:62845
+[2026-05-28 21:03:19] [INFO] [SERVER] Client connection closed: 127.0.0.1:62845
+[2026-05-28 21:04:24] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-28 21:04:25] [INFO] [SERVER] Server started on port 8080
+[2026-05-28 21:04:54] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-28 21:04:54] [INFO] [SERVER] Handling client: 127.0.0.1:62920
+[2026-05-28 21:05:44] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-28 21:05:44] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-28 21:05:53] [INFO] [SERVER] Login successful for user: alice
+[2026-05-28 21:05:53] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-28 21:08:56] [WARNING] [SERVER] Client disconnected: 127.0.0.1:62920
+[2026-05-28 21:08:56] [INFO] [SERVER] Client connection closed: 127.0.0.1:62920
+[2026-05-29 12:04:19] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-29 12:04:20] [INFO] [SERVER] Server started on port 8080
+[2026-05-29 12:22:05] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-29 12:22:05] [INFO] [SERVER] Server started on port 8080
+[2026-05-29 12:22:19] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-29 12:22:19] [INFO] [SERVER] Handling client: 127.0.0.1:63765
+[2026-05-29 12:22:36] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-29 12:22:36] [INFO] [SERVER] Decrypted message content
+[2026-05-29 12:22:36] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-29 12:22:36] [INFO] [SERVER] Login successful for user: alice
+[2026-05-29 12:22:36] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-29 12:23:56] [INFO] [SERVER] Received message from CLIENT - Type: DATA
+[2026-05-29 12:23:56] [INFO] [SERVER] Decrypted message content
+[2026-05-29 12:23:56] [INFO] [SERVER] Processing data request from CLIENT
+[2026-05-29 12:23:56] [INFO] [SERVER] Health record stored for patient: Alice
+[2026-05-29 12:23:56] [INFO] [SERVER] Patient ID: P1780037636842
+[2026-05-29 12:23:56] [INFO] [SERVER] Medical Condition: A
+[2026-05-29 12:23:56] [INFO] [SERVER] Medications: a
+[2026-05-29 12:23:56] [INFO] [SERVER] Health data submission processed successfully
+[2026-05-29 12:23:56] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-29 15:43:20] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-29 15:43:20] [INFO] [SERVER] Server started on port 8080
+[2026-05-29 15:49:12] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-29 15:49:12] [INFO] [SERVER] Handling client: 127.0.0.1:65236
+[2026-05-29 15:49:43] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-29 15:49:43] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-29 15:49:44] [INFO] [SERVER] Login successful for user: alice
+[2026-05-29 15:49:44] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-29 15:51:37] [INFO] [SERVER] Received message from CLIENT - Type: DATA
+[2026-05-29 15:51:37] [INFO] [SERVER] Processing data request from CLIENT
+[2026-05-29 15:51:37] [INFO] [SERVER] Health record stored for patient: Alice
+[2026-05-29 15:51:37] [INFO] [SERVER] Patient ID: P1780050097373
+[2026-05-29 15:51:37] [INFO] [SERVER] Medical Condition: Diabetes type2
+[2026-05-29 15:51:37] [INFO] [SERVER] Medications: Metfromin 500mg
+[2026-05-29 15:51:37] [INFO] [SERVER] Health data submission processed successfully
+[2026-05-29 15:51:37] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-29 15:52:55] [WARNING] [SERVER] Client disconnected: 127.0.0.1:65236
+[2026-05-29 15:52:55] [INFO] [SERVER] Client connection closed: 127.0.0.1:65236
+[2026-05-29 15:53:37] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-29 15:53:37] [INFO] [SERVER] Server started on port 8080
+[2026-05-29 15:53:45] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-29 15:53:46] [INFO] [SERVER] Handling client: 127.0.0.1:65266
+[2026-05-29 15:54:05] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-29 15:54:05] [INFO] [SERVER] Decrypted message content
+[2026-05-29 15:54:05] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-29 15:54:06] [INFO] [SERVER] Login successful for user: alice
+[2026-05-29 15:54:06] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-29 16:17:58] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-29 16:17:58] [INFO] [SERVER] Server started on port 8080
+[2026-05-29 16:18:12] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-29 16:18:12] [INFO] [SERVER] Handling client: 127.0.0.1:65434
+[2026-05-29 16:18:22] [WARNING] [SERVER] Client disconnected: 127.0.0.1:65434
+[2026-05-29 16:18:22] [INFO] [SERVER] Client connection closed: 127.0.0.1:65434
+[2026-05-29 16:32:05] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-29 16:32:05] [INFO] [SERVER] Server started on port 8080
+[2026-05-29 16:40:49] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-29 16:40:49] [INFO] [SERVER] Server started on port 8080
+[2026-05-29 16:43:09] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-29 16:43:10] [INFO] [SERVER] Handling client: 127.0.0.1:49378
+[2026-05-29 16:43:14] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-29 16:43:14] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-29 16:43:15] [INFO] [SERVER] Login successful for user: alice
+[2026-05-29 16:43:15] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-29 16:45:26] [INFO] [SERVER] Received message from CLIENT - Type: DATA
+[2026-05-29 16:45:26] [INFO] [SERVER] Processing data request from CLIENT
+[2026-05-29 16:45:26] [INFO] [SERVER] Health record stored for patient: Alice Johnson
+[2026-05-29 16:45:26] [INFO] [SERVER] Patient ID: P1780053326491
+[2026-05-29 16:45:26] [INFO] [SERVER] Medical Condition: Diabetes Type 2, Hypertension
+[2026-05-29 16:45:26] [INFO] [SERVER] Medications: Metformin 500mg, Lisinopril 10mg
+[2026-05-29 16:45:26] [INFO] [SERVER] Health data submission processed successfully
+[2026-05-29 16:45:26] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-29 17:02:17] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-29 17:02:17] [INFO] [SERVER] Server started on port 8080
+[2026-05-29 17:08:36] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-29 17:08:36] [INFO] [SERVER] Server started on port 8080
+[2026-05-29 17:11:05] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-29 17:11:05] [INFO] [SERVER] Handling client: 127.0.0.1:49537
+[2026-05-29 17:11:19] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-29 17:11:19] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-29 17:11:19] [INFO] [SERVER] Login successful for user: alice
+[2026-05-29 17:11:19] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-29 17:12:31] [INFO] [SERVER] Received message from CLIENT - Type: DATA
+[2026-05-29 17:12:31] [INFO] [SERVER] Processing data request from CLIENT
+[2026-05-29 17:12:31] [INFO] [SERVER] Health record stored for patient: Alice
+[2026-05-29 17:12:31] [INFO] [SERVER] Patient ID: P1780054951159
+[2026-05-29 17:12:31] [INFO] [SERVER] Medical Condition: Diabetes Type 2, Hypertension
+[2026-05-29 17:12:31] [INFO] [SERVER] Medications: Metformin
+[2026-05-29 17:12:31] [INFO] [SERVER] Health data submission processed successfully
+[2026-05-29 17:12:31] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-29 17:13:19] [WARNING] [SERVER] Client disconnected: 127.0.0.1:49537
+[2026-05-29 17:13:19] [INFO] [SERVER] Client connection closed: 127.0.0.1:49537
+[2026-05-29 17:13:54] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-29 17:13:54] [INFO] [SERVER] Server started on port 8080
+[2026-05-29 17:14:15] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-29 17:14:15] [INFO] [SERVER] Handling client: 127.0.0.1:49548
+[2026-05-29 17:14:32] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-29 17:14:32] [INFO] [SERVER] Decrypted message content
+[2026-05-29 17:14:32] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-29 17:14:32] [INFO] [SERVER] Login successful for user: alice
+[2026-05-29 17:14:32] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-29 17:15:32] [INFO] [SERVER] Received message from CLIENT - Type: DATA
+[2026-05-29 17:15:32] [INFO] [SERVER] Decrypted message content
+[2026-05-29 17:15:32] [INFO] [SERVER] Processing data request from CLIENT
+[2026-05-29 17:15:32] [INFO] [SERVER] Health record stored for patient: Alice
+[2026-05-29 17:15:32] [INFO] [SERVER] Patient ID: P1780055132440
+[2026-05-29 17:15:32] [INFO] [SERVER] Medical Condition: Diabetes
+[2026-05-29 17:15:32] [INFO] [SERVER] Medications: Metformin
+[2026-05-29 17:15:32] [INFO] [SERVER] Health data submission processed successfully
+[2026-05-29 17:15:32] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-29 20:26:25] [WARNING] [SERVER] Client disconnected: 127.0.0.1:49548
+[2026-05-29 20:26:25] [INFO] [SERVER] Client connection closed: 127.0.0.1:49548
+[2026-05-29 21:48:36] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-29 21:48:36] [INFO] [SERVER] Server started on port 8080
+[2026-05-29 21:48:45] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-29 21:48:45] [INFO] [SERVER] Handling client: 127.0.0.1:50457
+[2026-05-29 21:48:56] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-29 21:48:56] [INFO] [SERVER] Login attempt - Username: a
+[2026-05-29 21:48:56] [WARNING] [SERVER] Login failed for user: a
+[2026-05-29 21:48:56] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-29 21:49:11] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-29 21:49:11] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-29 21:49:11] [INFO] [SERVER] Login successful for user: alice
+[2026-05-29 21:49:11] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-29 21:49:32] [INFO] [SERVER] Received message from CLIENT - Type: DATA
+[2026-05-29 21:49:32] [INFO] [SERVER] Processing data request from CLIENT
+[2026-05-29 21:49:32] [INFO] [SERVER] Health record stored for patient: Alice
+[2026-05-29 21:49:32] [INFO] [SERVER] Patient ID: P1780071572960
+[2026-05-29 21:49:32] [INFO] [SERVER] Medical Condition: 
+[2026-05-29 21:49:32] [INFO] [SERVER] Medications: 
+[2026-05-29 21:49:32] [INFO] [SERVER] Health data submission processed successfully
+[2026-05-29 21:49:33] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-29 21:50:05] [WARNING] [SERVER] Client disconnected: 127.0.0.1:50457
+[2026-05-29 21:50:05] [INFO] [SERVER] Client connection closed: 127.0.0.1:50457
+[2026-05-29 21:52:10] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-29 21:52:10] [INFO] [SERVER] Server started on port 8080
+[2026-05-29 21:52:17] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-29 21:52:17] [INFO] [SERVER] Handling client: 127.0.0.1:50474
+[2026-05-29 21:52:42] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-29 21:52:42] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-29 21:52:43] [INFO] [SERVER] Login successful for user: alice
+[2026-05-29 21:52:43] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-29 21:53:01] [INFO] [SERVER] Received message from CLIENT - Type: DATA
+[2026-05-29 21:53:01] [INFO] [SERVER] Processing data request from CLIENT
+[2026-05-29 21:53:01] [INFO] [SERVER] Health record stored for patient: A
+[2026-05-29 21:53:01] [INFO] [SERVER] Patient ID: P1780071781808
+[2026-05-29 21:53:01] [INFO] [SERVER] Medical Condition: 
+[2026-05-29 21:53:01] [INFO] [SERVER] Medications: 
+[2026-05-29 21:53:01] [INFO] [SERVER] Health data submission processed successfully
+[2026-05-29 21:53:01] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-29 21:53:19] [WARNING] [SERVER] Client disconnected: 127.0.0.1:50474
+[2026-05-29 21:53:19] [INFO] [SERVER] Client connection closed: 127.0.0.1:50474
+[2026-05-30 10:08:11] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-30 10:08:11] [INFO] [SERVER] Server started on port 8080
+[2026-05-30 10:08:20] [INFO] [SERVER] New client connection from 127.0.0.1
+[2026-05-30 10:08:20] [INFO] [SERVER] Handling client: 127.0.0.1:51909
+[2026-05-30 10:08:33] [INFO] [SERVER] Received message from CLIENT - Type: LOGIN
+[2026-05-30 10:08:33] [INFO] [SERVER] Login attempt - Username: alice
+[2026-05-30 10:08:33] [INFO] [SERVER] Login successful for user: alice
+[2026-05-30 10:08:33] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-30 10:08:59] [INFO] [SERVER] Received message from CLIENT - Type: DATA
+[2026-05-30 10:08:59] [INFO] [SERVER] Processing data request from CLIENT
+[2026-05-30 10:08:59] [INFO] [SERVER] Health record stored for patient: A
+[2026-05-30 10:08:59] [INFO] [SERVER] Patient ID: P1780115939259
+[2026-05-30 10:08:59] [INFO] [SERVER] Medical Condition: A
+[2026-05-30 10:08:59] [INFO] [SERVER] Medications: A
+[2026-05-30 10:08:59] [INFO] [SERVER] Health data submission processed successfully
+[2026-05-30 10:08:59] [INFO] [SERVER] Sent response to CLIENT
+[2026-05-30 10:09:11] [WARNING] [SERVER] Client disconnected: 127.0.0.1:51909
+[2026-05-30 10:09:11] [INFO] [SERVER] Client connection closed: 127.0.0.1:51909
+[2026-05-30 11:40:23] [INFO] [SERVER] User database initialized with demo accounts
+[2026-05-30 11:40:23] [INFO] [SERVER] Server started on port 8080

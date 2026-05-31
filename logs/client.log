@@ -1,0 +1,362 @@
+[2026-05-28 13:55:27] [INFO] [CLIENT] Connected to server at localhost:8080
+[2026-05-28 13:55:39] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-28 13:55:39] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-28 13:55:39] [INFO] [CLIENT] Login successful! Session token: 75dc794d-52c8-4921-813b-c32c6c54f5d7
+[2026-05-28 13:55:48] [INFO] [CLIENT] Sending UNENCRYPTED data (vulnerable to MITM!)
+[2026-05-28 13:55:48] [INFO] [CLIENT] Data sent: dlsfkg,fdmg
+[2026-05-28 13:55:48] [INFO] [CLIENT] Received response: Processed: dlsfkg,fdmg [Server Response]
+[2026-05-28 13:56:45] [INFO] [CLIENT] Connected to server at localhost:8081
+[2026-05-28 13:57:20] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-28 13:57:20] [INFO] [CLIENT] Login request sent for user: bob
+[2026-05-28 13:57:20] [INFO] [CLIENT] Login successful! Session token: 7ca12eaf-f76d-4797-ba80-9f5f76dd2062
+[2026-05-28 14:13:06] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-28 14:13:06] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-28 14:13:06] [INFO] [CLIENT] Login successful! Session token: 50cd6eb6-d212-4913-9dc8-7ce9ce48fe70
+[2026-05-28 14:13:58] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-28 14:13:58] [INFO] [CLIENT] Login request sent for user: bob
+[2026-05-28 14:13:58] [INFO] [CLIENT] Login successful! Session token: 8a03d07a-e2c8-44a5-982a-780189f20a0f
+[2026-05-28 14:21:47] [INFO] [CLIENT] Connected to server at localhost:8080
+[2026-05-28 14:22:21] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-28 14:22:21] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-28 14:22:21] [INFO] [CLIENT] Login successful! Session token: efd8cdb3-82db-4cab-b679-94aa353f354b
+[2026-05-28 17:01:12] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-28 17:02:22] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-28 17:02:38] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-28 17:02:38] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-28 17:02:39] [INFO] [CLIENT] Login successful! Session token: 65bc23e0-7e63-4c38-9d28-f185c982f8d5
+[2026-05-28 17:07:00] [INFO] [CLIENT] Sending UNENCRYPTED health data (vulnerable to MITM!)
+[2026-05-28 17:07:00] [INFO] [CLIENT] Health data sent for patient: John Doe
+[2026-05-28 17:07:00] [INFO] [CLIENT] Received response: ? Health Information Recorded Successfully
+
+Patient ID: P1779968220168
+Patient Name: John Doe
+Age: 30
+Blood Type: A+
+Medical Condition: BP
+Medications: Omc
+Allergies: None
+Symptoms: swelling in legs
+
+Your health information has been securely stored in our system.
+Total records in database: 1
+[2026-05-28 17:09:19] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-28 17:09:25] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-28 17:09:39] [INFO] [CLIENT] Encryption ENABLED
+[2026-05-28 17:09:42] [INFO] [CLIENT] Sending encrypted login request
+[2026-05-28 17:09:42] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-28 17:10:39] [INFO] [CLIENT] Login successful! Session token: e4d29322-7f8f-4b9f-a1ab-2cb12c2f45e8
+[2026-05-28 17:11:03] [INFO] [CLIENT] Sending encrypted health data
+[2026-05-28 17:11:03] [INFO] [CLIENT] Health data sent for patient: dsa
+[2026-05-28 17:11:03] [INFO] [CLIENT] Received response: ? Health Information Recorded Successfully
+
+Patient ID: P1779968463708
+Patient Name: dsa
+Age: 23
+Blood Type: A+
+Medical Condition: dfgbdd
+Medications: 
+Allergies: 
+Symptoms: 
+
+Your health information has been securely stored in our system.
+Total records in database: 2
+[2026-05-28 17:15:07] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-28 17:15:14] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-28 17:15:35] [INFO] [CLIENT] Encryption ENABLED
+[2026-05-28 17:15:38] [INFO] [CLIENT] Sending encrypted login request
+[2026-05-28 17:15:38] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-28 17:15:38] [INFO] [CLIENT] Login successful! Session token: 0f301f69-8794-4fd9-9e6e-4958d78b49b7
+[2026-05-28 17:16:13] [INFO] [CLIENT] Sending encrypted health data
+[2026-05-28 17:16:13] [INFO] [CLIENT] Health data sent for patient: Alice
+[2026-05-28 17:16:13] [INFO] [CLIENT] Received response: ? Health Information Recorded Successfully
+
+Patient ID: P1779968773050
+Patient Name: Alice
+Age: 23
+Blood Type: A+
+Medical Condition: N
+Medications: N
+Allergies: M
+Symptoms: A
+
+Your health information has been securely stored in our system.
+Total records in database: 1
+[2026-05-28 17:17:26] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-28 17:17:31] [ERROR] [CLIENT] Failed to connect to server: Connection refused: connect
+[2026-05-28 17:17:36] [ERROR] [CLIENT] Failed to connect to server: Connection refused: connect
+[2026-05-28 17:18:17] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-28 17:18:37] [ERROR] [CLIENT] Failed to connect to server: Connection refused: connect
+[2026-05-28 17:21:51] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-28 17:21:57] [ERROR] [CLIENT] Failed to connect to server: Connection refused: connect
+[2026-05-28 17:22:46] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-28 17:22:49] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-28 17:23:01] [INFO] [CLIENT] Encryption ENABLED
+[2026-05-28 17:23:07] [INFO] [CLIENT] Sending encrypted login request
+[2026-05-28 17:23:07] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-28 17:23:07] [INFO] [CLIENT] Login successful! Session token: 071b2fdd-83ca-4102-8da5-d383fd68393c
+[2026-05-28 17:23:30] [INFO] [CLIENT] Sending encrypted health data
+[2026-05-28 17:23:30] [INFO] [CLIENT] Health data sent for patient: Alice
+[2026-05-28 17:23:30] [INFO] [CLIENT] Received response: ? Health Information Recorded Successfully
+
+Patient ID: P1779969210874
+Patient Name: Alice
+Age: 23
+Blood Type: A+
+Medical Condition: BP
+Medications: Dia
+Allergies: NA
+Symptoms: 
+
+Your health information has been securely stored in our system.
+Total records in database: 1
+[2026-05-28 17:24:22] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-28 17:24:25] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-28 17:24:34] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-28 17:24:34] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-28 17:24:35] [INFO] [CLIENT] Login successful! Session token: e015d528-6546-48b4-9c78-3de480d51c06
+[2026-05-28 17:25:05] [INFO] [CLIENT] Sending UNENCRYPTED health data (vulnerable to MITM!)
+[2026-05-28 17:25:05] [INFO] [CLIENT] Health data sent for patient: AliceA
+[2026-05-28 17:25:05] [INFO] [CLIENT] Received response: ? Health Information Recorded Successfully
+
+Patient ID: P1779969305890
+Patient Name: AliceA
+Age: 12
+Blood Type: A+
+Medical Condition: A
+Medications: B
+Allergies: C
+Symptoms: D
+
+Your health information has been securely stored in our system.
+Total records in database: 1
+[2026-05-28 18:06:10] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-28 18:06:23] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-28 18:06:44] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-28 18:06:44] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-28 18:06:44] [INFO] [CLIENT] Login successful! Session token: 00abfca1-3cd0-4863-9ad1-36bd6d4d64a7
+[2026-05-28 18:07:49] [INFO] [CLIENT] Sending UNENCRYPTED health data (vulnerable to MITM!)
+[2026-05-28 18:07:49] [INFO] [CLIENT] Health data sent for patient: Alice
+[2026-05-28 18:07:49] [INFO] [CLIENT] Received response: ? Health Information Recorded Successfully
+
+Patient ID: P1779971869345
+Patient Name: Alice
+Age: 23
+Blood Type: A+
+Medical Condition: BP
+Medications: BP
+Allergies: BP
+Symptoms: BP
+
+Your health information has been securely stored in our system.
+Total records in database: 1
+[2026-05-28 18:08:35] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-28 18:08:39] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-28 18:08:55] [INFO] [CLIENT] Encryption ENABLED
+[2026-05-28 18:09:04] [INFO] [CLIENT] Sending encrypted login request
+[2026-05-28 18:09:04] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-28 18:09:05] [INFO] [CLIENT] Login successful! Session token: 288e679e-dfb4-44fc-b87e-d196d4d8cba5
+[2026-05-28 18:09:41] [INFO] [CLIENT] Sending encrypted health data
+[2026-05-28 18:09:41] [INFO] [CLIENT] Health data sent for patient: Alice
+[2026-05-28 20:53:54] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-28 20:55:46] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-28 20:55:50] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-28 20:55:50] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-28 20:55:52] [INFO] [CLIENT] Login successful! Session token: b8fc3f2d-870a-4a50-a1cd-db86c6014359
+[2026-05-28 21:04:46] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-28 21:04:53] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-28 21:05:42] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-28 21:05:43] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-28 21:05:53] [INFO] [CLIENT] Login successful! Session token: 579e24b9-5064-4a68-882b-5f523fa15baa
+[2026-05-28 21:06:42] [INFO] [CLIENT] Sending UNENCRYPTED health data (vulnerable to MITM!)
+[2026-05-28 21:06:42] [INFO] [CLIENT] Health data sent for patient: Alice
+[2026-05-28 21:08:56] [ERROR] [CLIENT] Error sending health data: Connection reset
+[2026-05-29 12:04:25] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-29 12:22:10] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-29 12:22:19] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-29 12:22:33] [INFO] [CLIENT] Encryption ENABLED
+[2026-05-29 12:22:35] [INFO] [CLIENT] Sending encrypted login request
+[2026-05-29 12:22:35] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-29 12:22:36] [INFO] [CLIENT] Login successful! Session token: e7e50019-e8d0-409c-895b-bebb4c1c27d8
+[2026-05-29 12:23:56] [INFO] [CLIENT] Sending encrypted health data
+[2026-05-29 12:23:56] [INFO] [CLIENT] Health data sent for patient: Alice
+[2026-05-29 12:23:56] [INFO] [CLIENT] Received response: ? Health Information Recorded Successfully
+
+Patient ID: P1780037636842
+Patient Name: Alice
+Age: 23
+Blood Type: A+
+Medical Condition: A
+Medications: a
+Allergies: A
+Symptoms: A
+
+Your health information has been securely stored in our system.
+Total records in database: 1
+[2026-05-29 15:43:24] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-29 15:49:12] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-29 15:49:43] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-29 15:49:43] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-29 15:49:44] [INFO] [CLIENT] Login successful! Session token: dfaec4fb-d74a-4980-9bd2-a818a4149872
+[2026-05-29 15:51:37] [INFO] [CLIENT] Sending UNENCRYPTED health data (vulnerable to MITM!)
+[2026-05-29 15:51:37] [INFO] [CLIENT] Health data sent for patient: Alice
+[2026-05-29 15:51:37] [INFO] [CLIENT] Received response: ? Health Information Recorded Successfully
+
+Patient ID: P1780050097373
+Patient Name: Alice
+Age: 45
+Blood Type: B+
+Medical Condition: Diabetes type2
+Medications: Metfromin 500mg
+Allergies: Penicillin
+Symptoms: Fatigue
+
+Your health information has been securely stored in our system.
+Total records in database: 1
+[2026-05-29 15:53:42] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-29 15:53:45] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-29 15:54:02] [INFO] [CLIENT] Encryption ENABLED
+[2026-05-29 15:54:05] [INFO] [CLIENT] Sending encrypted login request
+[2026-05-29 15:54:05] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-29 15:54:06] [INFO] [CLIENT] Login successful! Session token: ff0b1699-6cd2-4fbf-89d4-7e6eb0610c0e
+[2026-05-29 15:55:21] [INFO] [CLIENT] Sending encrypted health data
+[2026-05-29 15:55:21] [INFO] [CLIENT] Health data sent for patient: Alice
+[2026-05-29 16:18:03] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-29 16:18:12] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-29 16:32:09] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-29 16:38:41] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-29 16:39:10] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-29 16:39:11] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-29 16:40:54] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-29 16:43:09] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-29 16:43:14] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-29 16:43:14] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-29 16:43:15] [INFO] [CLIENT] Login successful! Session token: fbcf5518-72e5-4df5-a2d3-9036550d69fb
+[2026-05-29 16:45:26] [INFO] [CLIENT] Sending UNENCRYPTED health data (vulnerable to MITM!)
+[2026-05-29 16:45:26] [INFO] [CLIENT] Health data sent for patient: Alice Johnson
+[2026-05-29 16:45:26] [INFO] [CLIENT] Received response: ? Health Information Recorded Successfully
+
+Patient ID: P1780053326491
+Patient Name: Alice Johnson
+Age: 45
+Blood Type: AB+
+Medical Condition: Diabetes Type 2, Hypertension
+Medications: Metformin 500mg, Lisinopril 10mg
+Allergies: Penicillin
+Symptoms: Fatigue, increased thirst
+
+Your health information has been securely stored in our system.
+Total records in database: 1
+[2026-05-29 16:48:42] [INFO] [CLIENT] Sending UNENCRYPTED health data (vulnerable to MITM!)
+[2026-05-29 16:48:42] [INFO] [CLIENT] Health data sent for patient: Alice Johnson
+[2026-05-29 16:49:04] [ERROR] [CLIENT] Error sending health data: Connection reset
+[2026-05-29 17:02:22] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-29 17:06:14] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-29 17:06:34] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-29 17:06:34] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-29 17:08:42] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-29 17:11:05] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-29 17:11:18] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-29 17:11:19] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-29 17:11:19] [INFO] [CLIENT] Login successful! Session token: dc199214-cd1b-47c0-9a83-9652a0920cb9
+[2026-05-29 17:12:30] [INFO] [CLIENT] Sending UNENCRYPTED health data (vulnerable to MITM!)
+[2026-05-29 17:12:31] [INFO] [CLIENT] Health data sent for patient: Alice
+[2026-05-29 17:12:31] [INFO] [CLIENT] Received response: ? Health Information Recorded Successfully
+
+Patient ID: P1780054951159
+Patient Name: Alice
+Age: 45
+Blood Type: B+
+Medical Condition: Diabetes Type 2, Hypertension
+Medications: Metformin
+Allergies: Penicillin
+Symptoms: Fatigue
+
+Your health information has been securely stored in our system.
+Total records in database: 1
+[2026-05-29 17:13:59] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-29 17:14:14] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-29 17:14:29] [INFO] [CLIENT] Encryption ENABLED
+[2026-05-29 17:14:31] [INFO] [CLIENT] Sending encrypted login request
+[2026-05-29 17:14:31] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-29 17:14:32] [INFO] [CLIENT] Login successful! Session token: 2c7131a7-4436-4fa9-8eec-74c53c977099
+[2026-05-29 17:15:32] [INFO] [CLIENT] Sending encrypted health data
+[2026-05-29 17:15:32] [INFO] [CLIENT] Health data sent for patient: Alice
+[2026-05-29 17:15:32] [INFO] [CLIENT] Received response: ? Health Information Recorded Successfully
+
+Patient ID: P1780055132440
+Patient Name: Alice
+Age: 23
+Blood Type: A+
+Medical Condition: Diabetes
+Medications: Metformin
+Allergies: Penicillin
+Symptoms: Fatigue
+
+Your health information has been securely stored in our system.
+Total records in database: 1
+[2026-05-29 21:48:42] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-29 21:48:45] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-29 21:48:56] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-29 21:48:56] [INFO] [CLIENT] Login request sent for user: a
+[2026-05-29 21:48:56] [WARNING] [CLIENT] Login failed: ERROR: Invalid credentials
+[2026-05-29 21:49:11] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-29 21:49:11] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-29 21:49:11] [INFO] [CLIENT] Login successful! Session token: 8a90a739-d521-4d82-9d78-4e992861315c
+[2026-05-29 21:49:32] [INFO] [CLIENT] Sending UNENCRYPTED health data (vulnerable to MITM!)
+[2026-05-29 21:49:32] [INFO] [CLIENT] Health data sent for patient: Alice
+[2026-05-29 21:49:33] [INFO] [CLIENT] Received response: ? Health Information Recorded Successfully
+
+Patient ID: P1780071572960
+Patient Name: Alice
+Age: 23
+Blood Type: A+
+Medical Condition: 
+Medications: 
+Allergies: 
+Symptoms: 
+
+Your health information has been securely stored in our system.
+Total records in database: 1
+[2026-05-29 21:52:14] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-29 21:52:17] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-29 21:52:42] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-29 21:52:42] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-29 21:52:43] [INFO] [CLIENT] Login successful! Session token: bb32c9ea-13c4-4fb5-99a6-ab87e6d1168a
+[2026-05-29 21:53:01] [INFO] [CLIENT] Sending UNENCRYPTED health data (vulnerable to MITM!)
+[2026-05-29 21:53:01] [INFO] [CLIENT] Health data sent for patient: A
+[2026-05-29 21:53:01] [INFO] [CLIENT] Received response: ? Health Information Recorded Successfully
+
+Patient ID: P1780071781808
+Patient Name: A
+Age: 23
+Blood Type: A+
+Medical Condition: 
+Medications: 
+Allergies: 
+Symptoms: 
+
+Your health information has been securely stored in our system.
+Total records in database: 1
+[2026-05-30 10:08:16] [INFO] [CLIENT] Hospital Client GUI initialized
+[2026-05-30 10:08:19] [INFO] [CLIENT] Connected to hospital server at localhost:8081
+[2026-05-30 10:08:33] [INFO] [CLIENT] Sending UNENCRYPTED login request (vulnerable to MITM!)
+[2026-05-30 10:08:33] [INFO] [CLIENT] Login request sent for user: alice
+[2026-05-30 10:08:33] [INFO] [CLIENT] Login successful! Session token: 8bea9bab-e35e-4032-916a-3df9de982543
+[2026-05-30 10:08:59] [INFO] [CLIENT] Sending UNENCRYPTED health data (vulnerable to MITM!)
+[2026-05-30 10:08:59] [INFO] [CLIENT] Health data sent for patient: A
+[2026-05-30 10:08:59] [INFO] [CLIENT] Received response: ? Health Information Recorded Successfully
+
+Patient ID: P1780115939259
+Patient Name: A
+Age: 23
+Gender: F
+Adhar Number: 123
+Blood Type: A+
+Medical Condition: A
+Medications: A
+Allergies: A
+Symptoms: A
+
+Your health information has been securely stored in our system.
+Total records in database: 1
+[2026-05-30 11:40:27] [INFO] [CLIENT] Hospital Client GUI initialized
