@@ -194,8 +194,8 @@ mitm-attack-demo/
 │                   └── app.js                         # Web UI logic
 ├── logs/                                              # Log files
 ├── pom.xml                                            # Maven configuration
-├── run_hospital_demo.bat                              # Run hospital demo (NEW)
-├── run_hospital_client_direct.bat                     # Run client directly (NEW)
+├── run_hospital_demo.bat                              # Run hospital demo 
+├── run_hospital_client_direct.bat                     # Run client directly
 ├── README.md                                          # This file
 ├── SETUP_GUIDE.md                                    # Detailed setup instructions
 └── SECURITY_MITIGATION.md                            # Security best practices
