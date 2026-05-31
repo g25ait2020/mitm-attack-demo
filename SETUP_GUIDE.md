@@ -52,7 +52,7 @@ cd mitm-attack-demo
 
 If using Git:
 ```bash
-git clone <repository-url>
+git clone https://github.com/g25ait2020/mitm-attack-demo
 cd mitm-attack-demo
 ```
 
@@ -65,6 +65,8 @@ mitm-attack-demo/
 ├── pom.xml
 ├── README.md
 └── SETUP_GUIDE.md
+└── HOSPITAL_DEMO_GUIDE.md
+└── run_hospital_demo.bat
 ```
 
 ### Step 3: Build the Project
